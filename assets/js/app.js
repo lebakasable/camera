@@ -43,3 +43,8 @@ liveSocket.connect();
 // >> liveSocket.enableLatencySim(1000)  // enabled for duration of browser session
 // >> liveSocket.disableLatencySim()
 window.liveSocket = liveSocket;
+
+document.getElementById('take-photo').onclick = () => {
+  const photo = document.getElementById('photo');
+  photo.src = photo.src;
+};

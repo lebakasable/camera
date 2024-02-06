@@ -1,6 +1,8 @@
 <.header>
   Camera
   <:actions>
-    <.button>Prendre une photo</.button>
+    <.button phx-click="take-photo" id="take-photo">Prendre une photo</.button>
   </:actions>
 </.header>
+
+<img class="mt-6" src="/images/photo.png" id="photo" />
